@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, forwardRef } from "react";
+import React, { useState, useRef, forwardRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
@@ -43,7 +43,7 @@ const AnimatedNavbar = forwardRef(function Navbar(_, ref) {
         animate={{ y: 0 }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
       >
-        <div className="flex items-center justify-between w-full max-w-4xl 
+        <div className="flex items-center justify-between w-full max-w-full sm:max-w-2xl md:max-w-4xl
                         bg-white/20 backdrop-blur-md border border-white/30 
                         rounded-2xl px-4 py-2 shadow-lg">
           {/* Logo + Text */}

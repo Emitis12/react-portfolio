@@ -87,8 +87,8 @@ export default function Projects() {
             onClick={() => setSelectedIndex(i)}
             className="group cursor-pointer border border-white rounded-4xl bg-[#111] hover:bg-[#1a1a1a] p-8 transition-all duration-300 hover:shadow-xl min-h-[28rem] relative"
           >
-            {/* Project Number - Large, No Background, Faded Bottom */}
-            <div className="absolute top-0 left-200 text-7xl tracking-tighter font-bold text-white/30 leading-none fade-bottom z-10 select-none">
+            {/* Project Number - Large, Visible on All Screens */}
+            <div className="absolute top-4 left-4 text-5xl sm:text-6xl md:text-7xl font-bold text-white/30 z-10 select-none pointer-events-none">
               {String(i + 1).padStart(2, "0")}
             </div>
 

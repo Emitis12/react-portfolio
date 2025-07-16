@@ -6,7 +6,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
-import Contact from "./components/Contact";
+import GetInTouch from "./components/GetInTouch";
 import DownloadCV from "./components/DownloadCV";
 import Footer from "./components/Footer";
 import BlogPost from "./components/BlogPost";
@@ -14,8 +14,9 @@ import BlogList from "./components/BlogList";
 import Preloader from "./components/Preloader";
 import "antd/dist/reset.css";
 import "./index.css";
-import bgimg from "./img/bgimg.png"
+import bgimg from "./img/bgimg.png";
 import CustomCursor from "./components/CustomCursor";
+import ScrollButton from "./components/ScrollButton";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -26,15 +27,15 @@ function App() {
         <Preloader onFinish={() => setLoading(false)} />
       ) : (
        <div
-  className="bg-cover bg-center bg-no-repeat text-white transition-all duration-500 min-h-screen"
+  className="bg-cover bg-center bg-no-repeat text-white transition-all duration-500 min-h-screen overflow-x-hidden"
   style={{
     backgroundImage: `url(${bgimg})`,
-    imageRendering: "auto", // or "crisp-edges" for pixelated art
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   }}
 >
+
 
           <CustomCursor />
           <Navbar />
@@ -49,7 +50,8 @@ function App() {
                   <Projects />
                   <Skills />
                   <Testimonials />
-                  <Contact />
+                  <GetInTouch />
+                  <ScrollButton />
                 </>
               }
             />
