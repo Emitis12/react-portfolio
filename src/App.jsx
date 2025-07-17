@@ -35,7 +35,7 @@ function App() {
     backgroundRepeat: "no-repeat",
   }}
 >
-
+<main className="flex-grow">
 
           <CustomCursor />
           <Navbar />
@@ -59,6 +59,7 @@ function App() {
             <Route path="/blog/:id" element={<BlogPost />} />
           </Routes>
           <Footer />
+          </main>
         </div>
       )}
     </Router>
