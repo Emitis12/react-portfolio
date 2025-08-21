@@ -4,45 +4,48 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-import img1 from "../img/img1.jpg";
-import img2 from "../img/img2.jpg";
-import img3 from "../img/img3.jpg";
+import img1 from "../img/img1.png";
+import img2 from "../img/img2.png";
+import img3 from "../img/img3.png";
+import img11 from "../img/img11.png";
+import img22 from "../img/img22.png";
+import img33 from "../img/img33.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
-    title: "Project A",
-    description: "Cool project using React.",
+    title: "Smart School Management Software",
+    description: "School management system, fro Tertiary, Secondary and Primary Schools",
     image: img1,
-    altImage: img2,
+    altImage: img11,
     details: "Reusable components, routing, and state management with hooks.",
-    liveLink: "https://example.com/project-a",
-    github: "https://github.com/your-username/project-a",
+    liveLink: "https://sheyasolutionslcc.com",
+    github: "https://github.com/Dabee-Soln/SSMS.git",
     behance: "https://behance.net/your-username/project-a",
-    frameworks: ["React", "TailwindCSS", "GSAP"]
+    frameworks: ["Shadcn UI", "TailwindCSS", "Typescript", "Ant D"]
   },
   {
-    title: "Project B",
-    description: "Awesome UI with Tailwind.",
+    title: "Shore Blast Energy",
+    description: "Offshore fabrication company",
     image: img2,
-    altImage: img3,
+    altImage: img22,
     details: "Responsive layout, animations, and form validation.",
     liveLink: "https://example.com/project-b",
-    github: "https://github.com/your-username/project-b",
+    github: "https://github.com/Emitis12/shoreblast.git",
     behance: "https://behance.net/your-username/project-b",
-    frameworks: ["TailwindCSS", "JavaScript"]
+    frameworks: ["TailwindCSS", "JavaScript", "React.js"]
   },
   {
-    title: "Project C",
-    description: "Another cool UI.",
+    title: "Project Manager Software",
+    description: "FOr managing projects and tasks, meant for groups or companies.",
     image: img3,
-    altImage: img1,
+    altImage: img33,
     details: "Animations, dark mode, responsive design.",
-    liveLink: "https://example.com/project-c",
+    liveLink: "https://pms.flywebpay.com",
     github: "https://github.com/your-username/project-c",
     behance: "https://behance.net/your-username/project-c",
-    frameworks: ["HTML", "CSS", "Framer Motion"]
+    frameworks: ["Next.js", "TailwindCSS", "Ant D"]
   }
 ];
 

@@ -20,7 +20,7 @@ export default function DownloadCV() {
       className="text-center py-10  text-white transition-colors duration-500"
     >
       <a
-        href="/cv.pdf"
+        href="/src/files/cv.pdf"
         download
         className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-full transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-blue-700 animate-pulse"
         onMouseEnter={() => {

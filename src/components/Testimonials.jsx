@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 import { FaXTwitter } from "react-icons/fa6"; // X (Twitter) icon
 
 const testimonials = [
-  { name: "John Doe", text: "Working with Adeola was fantastic!" },
-  { name: "Jane Smith", text: "Creative and efficient. Highly recommend!" },
-  { name: "Alex Kim", text: "Always delivers great quality." },
-  { name: "Maria Lee", text: "Professional and timely!" },
-  { name: "Chris Doe", text: "Unique designs every time." },
-  { name: "Ella Rose", text: "Smooth collaboration process." },
-  { name: "Mike Lane", text: "Reliable and creative partner." },
-  { name: "Sam Bright", text: "Understood our vision perfectly." },
-  { name: "Nina White", text: "Exceeded expectations!" },
-  { name: "Leo Gold", text: "Impressive attention to detail." },
+  { name: "Bee Tech", text: "Wow!!! This is awesome" },
+  { name: "Big Fave", text: "Creative and efficient. Highly recommend!" },
+  { name: "Mfon Isongidok", text: "Overall it's very nice" },
+  { name: "Miracle Onukak", text: "This is beautiful brooooo❤️❤️" },
+  { name: "Chris Tech", text: "Madddd!" },
+  { name: "Peniella Ewa", text: "Wow" },
+  { name: "Miracle Onukak", text: "I love it, can I replicate?" },
+  { name: "Deborah", text: "I want to learn Please, you're good" },
+  { name: "Inioluwa", text: "This is beautiful Boss" },
+  { name: "Ebenezer", text: "Very good and responsive boss" },
 ];
 
 const MarqueeRow = ({ testimonials, direction = "left" }) => {

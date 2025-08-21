@@ -7,13 +7,13 @@ import gsap from "gsap";
 import logoImg from "../assets/logo.png";
 
 const socialLinks = [
-  { icon: <FaTwitter />, href: "https://twitter.com", label: "Twitter" },
-  { icon: <FaGithub />, href: "https://github.com", label: "GitHub" },
-  { icon: <FaLinkedin />, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: <FaTwitter />, href: "https://twitter.com/iam_tis", label: "Twitter" },
+  { icon: <FaGithub />, href: "https://github.com/Emitis12", label: "GitHub" },
+  { icon: <FaLinkedin />, href: "https://linkedin.com/in/israeltimothy", label: "LinkedIn" },
 ];
 
 const navLinks = [
-  { label: "Resume", to: "/resume" },
+  { label: "Resume", to: "/src/files/cv.pdf" },
   { label: "Blog", to: "/blog" },
 ];
 
